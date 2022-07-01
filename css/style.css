@@ -1,0 +1,209 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+*{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter";
+    margin: 0;
+    background-color: #E7E7E7;
+}
+.section-wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.container{
+    width: 1120px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.section-inner-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.left-part {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 540px;
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+.left-part-top {
+    width: 390px;
+    padding: 60px 0 60px 75px;
+}
+.frontend-and-backend {
+    display: inline-block;
+    margin-bottom: 65px;
+    padding: 5px 10px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px; 
+    text-align: center;  
+    color: #FFFFFF;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+.left-part-heading {
+    margin: 0;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #FFFFFF;
+}
+.left-part-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.left-part-bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 29px;
+    padding-bottom: 29px;
+    background-color: #4DC490;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.left-part-bottom-link {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.price {
+    font-weight: 300;
+}
+.right-part {
+    width: 570px;
+    padding: 60px 60px 40px 60px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+.right-part-heading {
+    margin-top: 0;
+    margin-bottom: 75px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    color: #000000;
+}
+.right-part-form {
+
+}
+.inp-basket {
+    width: 450px;
+    margin-bottom: 15px;
+    padding: 11px 0;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    outline: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #000000;
+}
+.inp-basket:focus{
+    border: none;
+    -webkit-box-shadow: 0 2px 0 0 #000;
+            box-shadow: 0 2px 0 0 #000;
+}
+.inp-basket::-webkit-input-placeholder{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #555555;
+}
+.inp-basket::-moz-placeholder{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #555555;
+}
+.inp-basket:-ms-input-placeholder{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #555555;
+}
+.inp-basket::-ms-input-placeholder{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #555555;
+}
+.inp-basket::placeholder{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #555555;
+}
+.form-submit {
+    display: block;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 450px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background-color: #655AF2;
+    border: none;
+    border-radius: 10px;
+}
+.right-link-wrapper{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 8px;
+}
+.right-part-link {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    color: #555555;
+}
+.right-part-link-inner {
+    margin-bottom: 0;
+    color: #F03535;
+}
